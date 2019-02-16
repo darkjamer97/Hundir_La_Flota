@@ -1,0 +1,35 @@
+* {
+    text-align: center;
+    margin: auto;
+}
+
+body {
+    background-image: url("../img/fondo.jpg");
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+table td{
+    padding: 0.3em;
+}
+
+table th{
+    border: 0.5em solid gray;
+    background-color: rgb(206, 206, 206);
+}
+
+#zonaJuego, #finPartida, #alertNombre, #alertColum, #alertFilas, #inicioPartida {
+    display: none;
+}
+
+#casilla {
+    position: absolute;
+    left: 61%;
+    top: 22%;
+    color: black;
+    font-size: 30px;
+    text-shadow: 2px 2px #FF0000;
+    -webkit-text-shadow: 2px 2px #FF0000;
+    -moz-text-shadow: 2px 2px #FF0000;
+}
